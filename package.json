@@ -1,0 +1,35 @@
+{
+  "name": "vibe-starter",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "check": "biome check --write . && tsc",
+    "lint": "biome check .",
+    "typecheck": "tsc",
+    "test": "vitest run",
+    "test:e2e": "playwright test",
+    "smoke": "node scripts/smoke.ts",
+    "skills:sync": "node scripts/sync-phaser-skills.ts",
+    "station:reset": "node scripts/reset-station.ts"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "^0.21.0",
+    "phaser": "^4.2.1",
+    "three": "^0.187.0"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.6.8",
+    "@playwright/test": "^1.65.1",
+    "@tailwindcss/vite": "^4.3.5",
+    "@types/node": "^26.6.6",
+    "@types/three": "^0.187.0",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8",
+    "vitest": "^5.1.1"
+  }
+}

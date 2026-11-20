@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Murmel-Insel</title>
+    <meta name="description" content="3D-Vorlage (Three.js + Rapier-Physik): Roll über die Insel und sammle Münzen." />
+    <meta name="emoji" content="🟠" />
+  </head>
+  <body class="h-screen overflow-hidden">
+    <div id="hud" class="pointer-events-none fixed top-3 right-4 z-10 text-2xl font-black drop-shadow-[0_2px_2px_rgba(0,0,0,0.8)]"></div>
+    <div id="message" class="pointer-events-none fixed inset-0 z-10 flex items-center justify-center text-5xl font-black opacity-0 transition-opacity duration-300 drop-shadow-[0_3px_3px_rgba(0,0,0,0.9)]"></div>
+    <p class="pointer-events-none fixed bottom-3 left-1/2 z-10 -translate-x-1/2 rounded-full bg-black/50 px-4 py-1 text-sm text-white/80">
+      Pfeiltasten: rollen · Leertaste: springen
+    </p>
+    <script type="module" src="./main.ts"></script>
+  </body>
+</html>

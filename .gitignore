@@ -1,0 +1,12 @@
+node_modules
+dist
+*.local
+.DS_Store
+
+# Screenshots vom Smoke-Test und Playwright-Ergebnisse
+.smoke
+test-results
+playwright-report
+
+# Persönliche Claude-Code-Einstellungen
+.claude/settings.local.json

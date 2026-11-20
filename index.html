@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vibe Coding – HTL Leonding</title>
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>✨</text></svg>" />
+  </head>
+  <body>
+    <main class="mx-auto max-w-6xl px-6 py-10">
+      <header class="mb-10">
+        <p class="text-sm font-semibold uppercase tracking-widest text-fuchsia-400">
+          Tag der offenen Tür · HTL Leonding
+        </p>
+        <h1 class="mt-2 text-5xl font-black tracking-tight">
+          Vibe Coding <span class="inline-block animate-bounce">✨</span>
+        </h1>
+        <p class="mt-3 max-w-2xl text-lg text-slate-300">
+          Beschreib deine Idee – die KI baut sie. Alles, was hier entsteht, taucht automatisch auf dieser Seite auf.
+        </p>
+      </header>
+
+      <section>
+        <h2 class="mb-4 text-xl font-bold text-slate-200">Eure Projekte</h2>
+        <div id="projects" class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3"></div>
+      </section>
+
+      <section class="mt-12">
+        <h2 class="mb-1 text-xl font-bold text-slate-200">Vorlagen zum Ausprobieren</h2>
+        <p class="mb-4 text-sm text-slate-400">Damit fängt die KI an, wenn ihr etwas Neues baut.</p>
+        <div id="templates" class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3"></div>
+      </section>
+    </main>
+    <script type="module" src="/src/gallery.ts"></script>
+  </body>
+</html>
